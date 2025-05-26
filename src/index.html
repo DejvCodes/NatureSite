@@ -12,19 +12,32 @@
     <div class="absolute inset-0 bg-black bg-opacity-60" />
 
     <nav class="fixed flex justify-center h-16 inset-0 bg-white/0 backdrop-blur-md z-70">
-      <div class="w-full max-w-[1200px] flex items-center justify-between">
-        <a href="#" class="text-xl font-poppins text-white p-2">
+      <div class="w-full max-w-[1200px] flex items-center justify-between px-3">
+        <a href="#" class="text-xl font-poppins text-white md:text-[26px]">
           🌿 NatureSite
         </a>
 
-        <div class="flex font-poppins text-white text-lg gap-10">
-          <a href="#">Home</a>
-          <a href="#about">About</a>
-          <a href="#gallery">Gallery</a>
+        <div class="flex font-poppins gap-4 text-lg text-white cursor-pointer md:text-[22px] md:gap-8">
+          <a href="#" class="hover:text-green-500 transition">Home</a>
+          <a href="#about" class="hover:text-green-600 transition">About</a>
+          <a href="#gallery" class="hover:text-green-600 transition">Gallery</a>  
         </div>
       </div>
     </nav>
-    
+
+    <div class="flex-row justify-center mt-[270px]">
+      <h1 class="text-white font-semibold font-poppins text-[28px] md:text-6xl tracking-wider">Welcome to NatureSite</h1>
+
+      <div class="flex justify-center gap-6 mt-10">
+        <button class="w-44 h-12 uppercase text-white bg-green-800 rounded-full">
+          <a href="#about">About</a>
+        </button>
+        <button class="w-44 h-12 uppercase text-white bg-green-800 rounded-full">
+          <a href="#gallery">Gallery</a>
+        </button>
+      </div>
+    </div>
+
   </header>
 </body>
 </html>
