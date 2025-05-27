@@ -12,32 +12,42 @@
     <div class="absolute inset-0 bg-black bg-opacity-60" />
 
     <nav class="fixed flex justify-center h-16 inset-0 bg-white/0 backdrop-blur-md z-70">
-      <div class="w-full max-w-[1200px] flex items-center justify-between px-3">
-        <a href="#" class="text-xl font-poppins text-white md:text-[26px]">
+      <div class="w-full max-w-[1250px] flex items-center justify-between px-3">
+        <a href="#" class="text-lg font-poppins text-white md:text-[22px] uppercase">
           🌿 NatureSite
         </a>
 
         <div class="flex font-poppins gap-4 text-lg text-white cursor-pointer md:text-[22px] md:gap-8">
-          <a href="#" class="hover:text-green-500 transition">Home</a>
+          <a href="#" class="hover:text-green-500 transition up">Home</a>
           <a href="#about" class="hover:text-green-600 transition">About</a>
-          <a href="#gallery" class="hover:text-green-600 transition">Gallery</a>  
+          <a href="#gallery" class="hover:text-green-600 transition">Gallery</a>
         </div>
       </div>
     </nav>
 
-    <div class="flex-row justify-center mt-[270px]">
-      <h1 class="text-white font-semibold font-poppins text-[28px] md:text-6xl tracking-wider">Welcome to NatureSite</h1>
+    <div class="flex-row justify-center text-white mt-[230px] md:mt-[260px]">
+      <h1 class="text-white text-[24px] font-semibold font-poppins tracking-wider uppercase md:text-[52px]">
+        Welcome to NatureSite
+      </h1>
+      <h3 class="text-center text-[18px] font-light md:text-xl mt-1">
+        Journey through nature!
+      </h3>
 
-      <div class="flex justify-center gap-6 mt-10">
-        <button class="w-44 h-12 uppercase text-white bg-green-800 rounded-full">
-          <a href="#about">About</a>
-        </button>
-        <button class="w-44 h-12 uppercase text-white bg-green-800 rounded-full">
-          <a href="#gallery">Gallery</a>
-        </button>
+      <div class="flex flex-col items-center gap-3 mt-8 md:flex-row justify-center">
+        <button class="text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 bg-green-600 border-green-600 rounded-full hover:bg-transparent transition">About</button>
+        <button class="text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 border-green-600 rounded-full hover:bg-green-600 transition">Gallery</button>
+      </div>
+
+      <div class="absolute bottom-5 w-full">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" viewBox="0 0 24 24" 
+          stroke-width="1.5" stroke="currentColor"
+          class="size-10 text-white mx-auto animate-bounce">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+        </svg>
       </div>
     </div>
-
   </header>
 </body>
 </html>
