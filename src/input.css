@@ -9,6 +9,11 @@
 body {
   background: black;
 }
+header {
+  height: 100vh;
+  background: url(/public/img/bg-1.webp);
+  background-size: cover;
+}
 h1 {
   color: blue;
   text-align: center;
