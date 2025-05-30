@@ -871,3 +871,13 @@ h1 {
     line-height: 1.75rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .lg\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .lg\:mt-\[320px\] {
+    margin-top: 320px;
+  }
+}
