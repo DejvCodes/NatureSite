@@ -791,7 +791,7 @@ body {
 
 header {
   height: 100vh;
-  background: url(/public/img/bg-1.webp);
+  background: url(../public/img/bg-1.webp);
   background-size: cover;
 }
 
