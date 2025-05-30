@@ -34,20 +34,36 @@
       </h3>
 
       <div class="flex flex-col items-center gap-3 mt-8 md:flex-row justify-center">
-        <button class="text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 bg-green-600 border-green-600 rounded-full hover:bg-transparent transition">About</button>
-        <button class="text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 border-green-600 rounded-full hover:bg-green-600 transition">Gallery</button>
+        <a href="#about"
+          class="flex items-center justify-center text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 bg-green-600 border-green-600 rounded-full hover:bg-transparent transition">
+          About
+        </a>
+        <a href="#gallery"
+          class="flex items-center justify-center text-white text-lg md:text-xl w-[270px] md:w-[300px] h-10 md:h-12 border-2 border-green-600 rounded-full hover:bg-green-600 transition">
+          Gallery
+        </a>
       </div>
 
       <div class="absolute bottom-5 w-full">
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          fill="none" viewBox="0 0 24 24" 
-          stroke-width="1.5" stroke="currentColor"
-          class="size-10 text-white mx-auto animate-bounce cursor-pointer">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
-        </svg>
+        <a href="#about">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-10 text-white mx-auto animate-bounce cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+          </svg>
+        </a>
       </div>
     </div>
   </header>
+
+  <section id="about" class="text-white">
+    <div class="py-9 max-w-[1100px] mx-auto md:py-16">
+      <h2 class="uppercase font-poppins text-[22px] text-center pb-4 md:text-3xl md:pb-8">About NatureSite 🌿</h2>
+      <p class="px-2 text-center font-light md:text-xl">
+        Discover the magic of nature with us! NatureSite is a space for nature lovers, sharing the beauty of landscapes,
+        flora, and fauna from around the world. Our mission is to inspire people to connect with and protect nature for
+        future generations.
+      </p>
+    </div>
+  </section>
 </body>
 </html>
