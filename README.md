@@ -17,4 +17,4 @@
 <a href="https://naturesite-dejvcodes.netlify.app/">NatureSite</a>
 
 ## 🔐 License
-[MIT License](LICENSE)
+[MIT License](LICENSE) 
